@@ -1,0 +1,14 @@
+name: northcote-reporting-automation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Core packages for data and GUI
+  - pandas
+  - pyside6
+  - openpyxl
+  # Packaging tools
+  - pyinstaller
+  - pyinstaller-hooks-contrib
